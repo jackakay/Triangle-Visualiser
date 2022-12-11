@@ -1,0 +1,17 @@
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\bin\Debug\net6.0-windows\Triangles.exe
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\bin\Debug\net6.0-windows\Triangles.deps.json
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\bin\Debug\net6.0-windows\Triangles.runtimeconfig.json
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\bin\Debug\net6.0-windows\Triangles.dll
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\bin\Debug\net6.0-windows\Triangles.pdb
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\obj\Debug\net6.0-windows\Triangles.csproj.AssemblyReference.cache
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\obj\Debug\net6.0-windows\Triangles.Form1.resources
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\obj\Debug\net6.0-windows\Triangles.csproj.GenerateResource.cache
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\obj\Debug\net6.0-windows\Triangles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\obj\Debug\net6.0-windows\Triangles.AssemblyInfoInputs.cache
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\obj\Debug\net6.0-windows\Triangles.AssemblyInfo.cs
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\obj\Debug\net6.0-windows\Triangles.csproj.CoreCompileInputs.cache
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\obj\Debug\net6.0-windows\Triangles.dll
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\obj\Debug\net6.0-windows\refint\Triangles.dll
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\obj\Debug\net6.0-windows\Triangles.pdb
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\obj\Debug\net6.0-windows\Triangles.genruntimeconfig.cache
+C:\Users\jackk\Documents\___\Triangle-Visualiser\Triangles\Triangles\obj\Debug\net6.0-windows\ref\Triangles.dll
