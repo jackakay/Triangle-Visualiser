@@ -5,6 +5,15 @@ namespace Triangles
     public partial class Form1 : Form
     {
         Graphics g;
+        public double ABlength;
+        public double AClength;
+        public double BClength;
+
+        public double A;
+        public double B;
+        public double C;
+
+        public double area;
         public Form1()
         {
             InitializeComponent();
@@ -17,6 +26,10 @@ namespace Triangles
             
         }
 
+        private double radiansToDegrees(double radians)
+        {
+            return radians * 180 / Math.PI;
+        }
         private void pointMoved()
         {
             g.Clear(Color.White);
@@ -24,6 +37,27 @@ namespace Triangles
             g.DrawLine(pen, panel1.Location, panel2.Location);
             g.DrawLine(pen, panel1.Location, panel3.Location);
             g.DrawLine(pen, panel2.Location, panel3.Location);
+
+            ABlength = Math.Round((Math.Sqrt(Math.Pow((double)panel1.Location.X - (double)panel2.Location.X, 2) + Math.Pow((double)panel1.Location.Y - (double)panel2.Location.Y, 2))) / 10, 2);
+            label7.Text = "AB: " + ABlength.ToString();
+
+            AClength = Math.Round((Math.Sqrt(Math.Pow((double)panel1.Location.X - (double)panel3.Location.X, 2) + Math.Pow((double)panel1.Location.Y - (double)panel3.Location.Y , 2))) / 10, 2);
+            label8.Text = "AC: " + AClength.ToString();
+
+            BClength = Math.Round(Math.Sqrt((Math.Pow((double)panel2.Location.X - (double)panel3.Location.X, 2) + Math.Pow((double)panel2.Location.Y - (double)panel3.Location.Y / 10, 2))) / 10, 2);
+            label9.Text = "AC: " + BClength.ToString();
+
+            A = Math.Round(radiansToDegrees(Math.Acos((Math.Pow(AClength, 2) + Math.Pow(ABlength, 2) - Math.Pow(BClength, 2)) / (2 * AClength * BClength))), 2);
+            label1.Text = "A: " + A.ToString();
+
+            B = Math.Round(radiansToDegrees(Math.Acos((Math.Pow(BClength, 2) + Math.Pow(ABlength, 2) - Math.Pow(AClength, 2)) / (2 * BClength * ABlength))), 2);
+            label2.Text = "B: " + B.ToString();
+
+            C = 180 - (A + B);
+            label6.Text = "C: " + C.ToString();
+
+            area = Math.Round(0.5 * BClength * AClength * radiansToDegrees(Math.Sin(C)), 2);
+            label10.Text = "Area: " + area.ToString();
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
